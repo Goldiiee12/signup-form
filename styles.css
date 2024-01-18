@@ -1,0 +1,113 @@
+.welcome-text1 {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    font-size: 2em; /* Adjust the font size as needed */
+    color: #333; /* Adjust the text color as needed */
+}
+
+.welcome-text2 {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 60px;
+    font-size: 2em; /* Adjust the font size as needed */
+    color: #333; /* Adjust the text color as needed */
+}
+
+.copyright {
+    text-align: center;
+    margin-top: 200px;
+    margin-bottom: 0px;
+    font-size: .8em; /* Adjust the font size as needed */
+    color: #333; /* Adjust the text color as needed */
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+.video-background {
+    position: relative;
+    background-image: url('https://i.pinimg.com/originals/76/aa/24/76aa24bf1e433a13444c18c5df7b839b.gif');
+    background-size:auto; /* Scale the image to fit within the container */
+    background-position: 30%; /* Center the image in the container */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    height: 100vh; 
+    width: 50%; /* Adjust the width to fit your design */
+    flex-shrink: 0; /* Prevents the div from shrinking */
+}
+
+
+.signup-form {
+    background: beige;
+    width: 50%; /* Adjust width as needed */
+    height: 95vh;
+    padding: 20px;
+    border-radius: 8px;
+    margin: auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+input {
+    border: 2px solid #000000;
+    margin-bottom: 15px;
+    padding: 5px;
+    border-radius: 5px;
+  }
+  
+  input:invalid {
+    border-color: red;
+  }
+  
+  input:valid {
+    border-color: green;
+  }
+
+.login-link {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.login-link a {
+    color: green; /* Choose a color that fits your design */
+    text-decoration: none; /* Optional: removes the underline */
+}
+
+.login-link a:hover {
+    text-decoration: underline; /* Optional: adds an underline on hover */
+}
+
+
+label, input {
+    display: block;
+    margin-bottom: 15px; /* Adjust the bottom margin as needed */
+}
+
+input {
+    width: calc(100% - 20px); /* Adjust the width to account for padding */
+    padding: 10px; /* Add some padding for better aesthetics */
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+}
+
+button {
+    width: 50%; /* Adjust the width as needed */
+    padding: 10px;
+    margin-top: 50px; /* Space above the button */
+    margin-left: 25%; /* Centers the button */
+    margin-right: auto; /* Centers the button */
+    border: none;
+    border-radius: 4px;
+    background-color: green;
+    color: white;
+    cursor: pointer; /* Changes the mouse cursor to a pointer when hovering over the button */
+}
